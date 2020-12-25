@@ -1,0 +1,107 @@
+body {
+	background-color: #23272A;
+}
+
+#cogg-image {
+  border-radius: 15px;
+  border: 2px solid transparent;
+}
+
+#cogg-div {
+  position: relative;
+}
+
+#cogg-word {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+#word-div {
+  position: absolute;
+  left: 284px;
+  bottom: 40px;
+}
+
+#container {
+	height: 100%;
+	width: 100%;
+}
+
+#innerbody-div {
+	border-radius: 15px;
+	border: 5px solid white;
+	width: 90%;
+	height: 95%;
+	margin-left: 50px;
+	margin-top: 15px;
+	background-color: #2C2F33;
+}
+
+#body {
+	margin-left: 97px;
+	background-color: #99AAB5;
+	border-radius: 15px;
+	border: 2px solid transparent;
+	height: 835px;
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+
+#info {
+	color: white;
+}
+
+#input {
+	text-align: center;
+	border-radius: 15px;
+	border: 3px solid transparent;
+	background-color: #000000;
+	width: 310px;
+	height: 45px;
+}
+
+#input:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+input, select, textarea {
+	color: white;
+}
+
+#submit {
+	cursor: pointer;
+	border-radius: 30px;
+	width: 120px;
+	height: 45px;
+	background-color: #7289DA;
+	color: white;
+	border: none;
+	outline: none;
+}
+
+
+#header-text {
+	color: white;
+	font-size: 100px;
+	font-family: monospace;
+	letter-spacing: 5px;
+	background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
